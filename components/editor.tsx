@@ -49,12 +49,12 @@ const editor: BlockNoteEditor=useBlockNote({
 
 
 
-  return <div>
+  return (
     <BlockNoteView 
     editor={editor}
     theme={resolvedTheme === "dark" ? "dark" : "light"}
     />
-  </div>;
+  )
 };
 
 export default Editor;
