@@ -1,6 +1,6 @@
 "use client";
 
-import { BlockNoteEditor, PartialBlock} from "@blocknote/core";
+import { BlockNoteEditor} from "@blocknote/core";
 
 import { BlockNoteView, useBlockNote } from "@blocknote/react";
 import "@blocknote/core/style.css";
